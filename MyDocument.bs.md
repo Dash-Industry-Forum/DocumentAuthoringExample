@@ -190,7 +190,7 @@ Shortname: example
 URL: https://example.com/where/is/this/document/published/
 Issue Tracking: GitHub https://github.com/Dash-Industry-Forum/DocumentAuthoringExample/issues
 Repository: https://github.com/Dash-Industry-Forum/DocumentAuthoringExample GitHub
-Editor: DASH-IF
+Editor: DASH Industry Forum
 
 Default Highlight: text
 <!-- Enabling line numbers breaks code blocks in PDF! (2018-10-02) -->
