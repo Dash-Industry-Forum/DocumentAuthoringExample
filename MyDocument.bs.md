@@ -63,6 +63,10 @@ There is a special syntax for code blocks. This disables markup processing:
 </html>
 </xmp>
 
+## Ambiguity ## {#ambiguity}
+
+Ambiguity is a type of meaning in which several interpretations are plausible. A common aspect of ambiguity is uncertainty. It is thus an attribute of any idea or statement whose intended meaning cannot be definitively resolved according to a rule or process with a finite number of steps. (The ambi- part of the term reflects an idea of "two", as in "two meanings".) 
+
 ## References ## {#document-references}
 
 There is a shortcut syntax for cross references to chapters in the same document: [[#introduction]]
