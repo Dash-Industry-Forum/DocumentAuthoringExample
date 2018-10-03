@@ -130,6 +130,10 @@ Using term reference syntax will link back to the definition of the term: [=foo=
 
 Note: every term must be referenced and every reference must point to a valid term. Terms with 0 references will result in a build error, just the same as broken references.
 
+Use a pipe character to specify custom text for the generated link (e.g. for grammatical purposes):
+
+Two [=baz|bazes=] are better than three [=foo|foos=]!
+
 # Defining data structures # {#definitions-datastructures}
 
 If your document defines data structures or languages, you will generally want to use the HTML/XML reference syntax of Bikeshed.
