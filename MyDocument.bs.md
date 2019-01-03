@@ -100,7 +100,7 @@ Images are also inserted as HTML.
 	<figcaption>Just a random static example image.</figcaption>
 </figure>
 
-# Automatic diagram generation # {#diagrams}
+# Automatic diagram generation # {#diagrams-auto}
 
 Diagrams can be automatically generated from text files. See content of `Diagrams/` subdirectory for diagram source code.
 
@@ -112,6 +112,15 @@ Diagrams can be automatically generated from text files. See content of `Diagram
 <figure>
 	<img src="Diagrams/SequenceDiagram.png" />
 	<figcaption>Example for PlantUML sequence diagram.</figcaption>
+</figure>
+
+# Manual diagrams # {#diagrams-manual}
+
+Diagrams can also be managed manually, treated as static images. Often these are yEd diagrams (.graphml files) that are manually exported to PNG.
+
+<figure>
+	<img src="Images/PresentationTimeOffset.png" />
+	<figcaption>Example yEd diagram.</figcaption>
 </figure>
 
 # Defining terms # {#definitions}
