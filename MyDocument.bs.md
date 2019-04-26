@@ -25,6 +25,7 @@ Block formatting can be useful for quotes and excerpts:
 > * porttitor lacus at
 > * convallis nunc
 > * suspendisse id dolor urna
+> * quervos murat
 > * curabitur in eros diam
 
 In quote blocks, you can still use all regular formatting. To disable formatting, use code blocks (see below).
