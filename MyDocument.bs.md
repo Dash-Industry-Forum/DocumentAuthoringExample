@@ -64,6 +64,11 @@ There is a special syntax for code blocks. This disables markup processing:
 </html>
 </xmp>
 
+## Including math ## {#math}
+
+When \(a \ne 0\) there are two solutions to \(ax^2 + bx + c = 0\)
+and they are $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
+
 ## References ## {#document-references}
 
 There is a shortcut syntax for cross references to chapters in the same document: [[#introduction]]
@@ -231,3 +236,4 @@ Abstract: None
 <pre boilerplate="logo">
 <a href="https://dashif.org/"><img src="Images/DASH-IF.png" /></a>
 </pre>
+
