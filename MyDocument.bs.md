@@ -76,23 +76,26 @@ There is a slightly different shortcut syntax for normative references [[!DASH-S
 
 # Some things require HTML # {#html}
 
-Tables are defined as HTML.
+Tables are defined as HTML and should be followed by `<figcaption>` and together enclosed by `<figure>`.
 
-<!-- class=def is a builtin style that makes for nice looking tables; you can remove this attribute for more plain tables -->
-<table class="def">
-	<tr>
-		<th>Usage</th>
-		<th>Algorithm</th>
-	</tr>
-	<tr>
-		<td>Content Key wrapping</td>
-		<td>AES256-CBC, PKCS #7 padding</td>
-	</tr>
-	<tr>
-		<td>Encrypted key MAC</td>
-		<td>HMAC-SHA512</td>
-	</tr>
-</table>
+<figure>
+	<table class="data">
+		<thead>
+			<tr>
+				<th>Usage</th>
+				<th>Algorithm</th>
+		<tbody>
+			<tr>
+				<td>Content Key wrapping</td>
+				<td>AES256-CBC, PKCS #7 padding</td>
+			<tr>
+				<td>Encrypted key MAC</td>
+				<td>HMAC-SHA512</td>
+	</table>
+	<figcaption>Some cryptographic algorithms.</figcaption>
+</figure>
+
+The `data` and `pre` classes enable some default styling for tables. Pick whichever you prefer. The above table uses `data`.
 
 Images are also inserted as HTML.
 
