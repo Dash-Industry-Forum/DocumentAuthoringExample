@@ -2,6 +2,8 @@
 
 The text of the document is mostly authored using Markdown syntax. You can use *italicized text*, **bold text**, [hyperlinks](https://example.com) and `inline code blocks`.
 
+This is the "published" branch.
+
 There are unordered lists:
 
 * Pollen
