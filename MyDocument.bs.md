@@ -2,7 +2,7 @@
 
 The text of the document is mostly authored using Markdown syntax. You can use *italicized text*, **bold text**, [hyperlinks](https://example.com) and `inline code blocks`.
 
-This is the "sterk" branch.
+This is the "sterk" branch. v2
 
 There are unordered lists:
 
